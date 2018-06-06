@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="login">
+        <!-- <h2>Login</h2>
+        <form action="">
+                <label>Username</label>
+                <input type="text">
+                <label class="error">message</label>
+
+        </form> -->
+
+        <fieldset>
+            <legend>Login details</legend>
+            <dl class="cf">
+                <dt>
+                    <label for="login_email">
+                        <span class="label">Email address:</span>
+                    </label>
+                </dt>
+                <dd>
+                <div class="validation_wrapper cf error_cont">                        
+                    <input name="logonId" id="login_email" type="text" class="text login_email" maxlength="50" autocomplete="off" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">                                        
+                <dt>
+                    <label for="password"><span class="label">Password:</span></label>
+                </dt>
+                <dd>
+                <div class="validation_wrapper cf error_cont">
+                    <input name="logonPassword" id="password" type="password" class="text password error" maxlength="20" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                <img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color6/v4/checkout/tick.gif" alt="This information needs correct" class="validation_correct" style="display: none;"><img src="/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color6/v4/checkout/invalid.gif" alt="This information needs correcting" class="validation_error" style=""></div><label for="password" generated="true" class="error">Please enter the password for your account</label>
+                </dd>
+                <dt class="checkbox_dt">Account Options</dt>
+                <dd class="checkbox_dd">
+                
+                        <input type="checkbox" name="rememberMe" id="remember_me" value="false" onclick="updateRememberChk(this)">
+            
+            <label for="remember_me">Remember Me</label>
+                </dd>
+                
+            </dl>
+
+            <p class="ajax_cta submit_form cf">
+                    <a id="login_submit" class="submit_button chk_button_secondary" title="Sign In" href="#">Sign In</a>
+                        <span class="ajax_progress_indicator"></span>
+            </p>
+        </fieldset>
+    </div>
+</body>
+</html>
