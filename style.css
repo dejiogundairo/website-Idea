@@ -23,9 +23,21 @@ body {
     width: 45%;
 }
 
+#login dl {
+    overflow: hidden;
+}
+
+#login dl dd.submit {
+    margin: 20px 0 0 0;
+}
+
 #login dl dd {
     float: right;
     width: 54%;
+}
+
+#login dl dd div span {
+    display: block;
 }
 
 #login dl dt label {
@@ -34,10 +46,11 @@ body {
 
 #login dl dt {
     float: left;
+    clear: left;
     margin: 3px 0 0 0;
+    height: 38px;
 }
 
-label.error {
-    color: red;
-    width: 100%;
+span.error {
+    color: rgb(150, 3, 3);
 }
