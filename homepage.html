@@ -5,43 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Homepage</title>
+    <script src="./script.js">
+    </script>
 </head>
-
 <body>
     <div id="login">
         <fieldset>
             <legend>Login Detail</legend>
-            <dl>
-                <dt>
-                    <label for="login_email">
-                        <span class="label">Email address:</span>
-                    </label>
-                </dt>
-                <dd>
-                    <div class="validation_wrapper">
-                        <input name="logonId" id="login_email" type="text" value="" />
-                        <span class="label error">Please enter email</span>
-                    </div>
-                </dd>
-                <dt>
-                    <label for="password">
-                        <span class="label">Password:</span>
-                    </label>
-                </dt>
-                <dd>
-                    <div class="validation_wrapper">
-                        <input name="logonPassword" id="password" type="password" />
-                        <span class="label error">Please enter Password</span>
-                    </div>
-                </dd>
-                <dd class="submit">
-                    <div class="">
-                        <input name="submit" value="Submit" type="button" />
-                    </div>
-                </dd>
+            <form action="" name="loginFrm">
+                <dl>
+                    <dt>
+                        <label for="login_email">
+                            <span class="label">Email address:</span>
+                        </label>
+                    </dt>
+                    <dd>
+                        <div class="validation_wrapper">
+                            <input name="email" id="login_email" type="text" value="" />
+                            <span class="label error">Please enter email</span>
+                        </div>
+                    </dd>
+                    <dt>
+                        <label for="password">
+                            <span class="label">Password:</span>
+                        </label>
+                    </dt>
+                    <dd>
+                        <div class="validation_wrapper">
+                            <input name="logonPassword" id="password" type="password" />
+                            <span class="label error">Please enter Password</span>
+                        </div>
+                    </dd>
+                    <dd class="submit">
+                        <div class="">
+                            <input name="submit" value="Submit" type="button" onclick="validateLogin(loginFrm)" />
+                        </div>
+                    </dd>
                 </dl>
+            </form>
         </fieldset>
         </div>
 </body>
