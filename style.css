@@ -44,6 +44,12 @@ body {
     margin: 5px 0 0 0;
 }
 
+#login input#login_submit {
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
 #login dl dt {
     float: left;
     clear: left;
@@ -53,4 +59,5 @@ body {
 
 span.error {
     color: rgb(150, 3, 3);
+    font-size: 12px;
 }
