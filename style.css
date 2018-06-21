@@ -4,7 +4,7 @@ body {
     background: #c0c0c0;
 }
 
-#login {
+#hp > div {
     width: 500px;
     margin: 50px auto 0 auto;
 }
@@ -17,40 +17,33 @@ body {
     margin: 20px 0 30px 0;
 }
 
-#login dl > * {
-    margin: 0;
-    padding: 0;
-    width: 45%;
-}
-
-#login dl {
+#hp dl {
     overflow: hidden;
 }
 
-#login dl dd.submit {
+#hp dl dd.submit {
     margin: 20px 0 0 0;
 }
 
-#login dl dd {
-    float: right;
-    width: 54%;
+legend {
+    font-weight: bold;
 }
 
-#login dl dd div span {
+#hp dl dd div span {
     display: block;
 }
 
-#login dl dt label {
+#hp dl dt label {
     margin: 5px 0 0 0;
 }
 
-#login input#login_submit {
+#hp input#login_submit {
     color: black;
     padding: 5px 10px;
     font-weight: bold;
 }
 
-#login dl dt {
+#hp dl dt {
     float: left;
     clear: left;
     margin: 3px 0 0 0;
@@ -60,4 +53,29 @@ body {
 span.error {
     color: rgb(150, 3, 3);
     font-size: 12px;
+}
+
+#hp div ul {
+    padding: 0;
+    margin: 0;
+}
+
+#hp div ul li a {
+    color: #000000;
+}
+
+#hp div ul li {
+    display: inline;
+    padding: 0 10px 0 0;
+}
+
+#hp dl dd {
+    height: 40px;
+    float: right;
+    width: 54%;
+    margin: 0;
+}
+
+#hp div#register {
+    display: none;
 }

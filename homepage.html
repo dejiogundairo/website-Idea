@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./script.js"></script>
 </head>
-<body>
+<body id="hp">
     <div id="login">
         <fieldset>
             <legend>Login Detail</legend>
@@ -43,8 +43,60 @@
                     </dd>
                 </dl>
             </form>
+            <ul>
+                <li>Please register <a href="">here</a>.</li>
+                <li><a href="">Forgotten your Password?</a></li>
+            </ul>
+             
+            
         </fieldset>
+    </div>
+
+    <div id="register">
+            <fieldset>
+                <legend>Register</legend>
+                <form action="" name="registerFrm">
+                    <dl>
+                        <dt>
+                            <label for="login_email">
+                                <span class="label">Email address:</span>
+                            </label>
+                        </dt>
+                        <dd>
+                            <div class="validation_wrapper" id="login_email">
+                                <input name="logonEmail" id="loginEmail" type="text" value="" />
+                            </div>
+                        </dd>
+                        <dt>
+                            <label for="login_password">
+                                <span class="label">Password:</span>
+                            </label>
+                        </dt>
+                        <dd>
+                            <div class="validation_wrapper" id="login_password">
+                                <input name="logonPassword" id="loginPassword" type="password" value="" />
+                            </div>
+                        </dd>
+                        <dt>
+                            <label for="login_password">
+                                <span class="label">Confirm password:</span>
+                            </label>
+                        </dt>
+                        <dd>
+                            <div class="validation_wrapper" id="login_password">
+                                <input name="logonPassword" id="loginPassword" type="password" value="" />
+                            </div>
+                        </dd>
+                        <dd class="submit">
+                            <div class=""> 
+                                <input name="submit" id="login_submit" value="Register" type="button" />
+                            </div>
+                        </dd>
+                    </dl>
+                </form-->
+            </fieldset>
         </div>
+    
 </body>
 
 </html>

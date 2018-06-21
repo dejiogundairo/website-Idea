@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $( "#login_submit" ).click(function() {
-        msg = "Please Enter Email";
+        msg = "Login Error message here";
 
         if (!$( "#loginEmail" ).val()) {
             $( ".login_email" ).remove();
             $( "<span class='login_email error'>"+msg+"</span>" ).appendTo( "#login_email" );
         }
 
-        msg = "Please Enter Password";
+        msg = "Login Error message here";
         
         if (!$( "#loginPassword" ).val()) {
                 $( ".login_password" ).remove();
